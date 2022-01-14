@@ -1,0 +1,35 @@
+body{
+background-color: #9fecdc;
+}
+
+h1{
+    color: rgb(38, 0, 255);
+    background-color: cornsilk;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+p{
+    font-size: 20px;
+}
+
+#time{
+float: right;
+margin-right: 20px;
+}
+
+#score{
+    float:left;
+    margin-left: 100px;
+}
